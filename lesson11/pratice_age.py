@@ -1,4 +1,4 @@
-print('Enter your age:')
+print('Доброе утро, укажите возраст:')
 age = input()
 
 def age_direction(age):
