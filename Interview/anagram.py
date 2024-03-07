@@ -37,3 +37,9 @@ if are_anagrams(string1, string2):
     print(f"{string1} and {string2} are anagrams.")
 else:
     print(f"{string1} and {string2} are not anagrams.")
+
+# This function takes two strings as input, 
+# removes spaces and converts them to lowercase, 
+# then counts the frequency of each character in both strings.  
+# If the frequencies are the same for both strings, they are anagrams. 
+# Otherwise, they are not.
