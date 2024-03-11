@@ -32,3 +32,14 @@ def longest_increasing_subsequence(nums):
 # Example usage:
 nums = [10, 22, 9, 33, 21, 50, 41, 60, 80]
 print("Longest increasing subsequence:", longest_increasing_subsequence(nums))
+
+# This function longest_increasing_subsequence takes an array of numbers 
+# as input and returns the longest increasing subsequence. 
+# It uses dynamic programming to compute the length of the longest increasing subsequence 
+# ending at each index, and then reconstructs the subsequence using this information.
+
+
+
+
+
+

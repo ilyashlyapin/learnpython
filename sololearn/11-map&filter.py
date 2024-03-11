@@ -1,12 +1,12 @@
 ## to remember
 # Python allows us to create functions on-the-fly, provided that they are created using lambda syntax. 
 
-# def my_func(f, arg):
-#   return f(arg)
+def my_func(f, arg):
+  return f(arg)
 
-# my_func(lambda x: 2*x*x, 5)
+my_func(lambda x: 2*x*x, 5)
 
-# print((lambda x: x**2 + 5*x + 4) (-4))
+print((lambda x: x**2 + 5*x + 4) (-4))
 
 # The function map takes a function and an iterable as arguments, 
 # and returns a new iterable with the function applied to each argument.

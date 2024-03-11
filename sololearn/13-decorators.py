@@ -56,5 +56,5 @@ def invoice(num):
     print("INVOICE #" +num)
 
 
-invoice(input());
+invoice(input())
 
