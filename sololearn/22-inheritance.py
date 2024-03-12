@@ -76,8 +76,7 @@ class Rectangle(Shape):
         print(2*(self.width+self.height))
     def area(self):
         print(self.width*self.height)
-
-
+        
 w = int(input())
 h = int(input())
 
