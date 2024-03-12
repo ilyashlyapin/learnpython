@@ -22,3 +22,21 @@ def my_func(x, y=7, *args, **kwargs):
    print(kwargs)
 
 my_func(2, 3, 4, 5, 6, a=7, b=8)
+
+# a and b are the names of the arguments that we passed to the function call.
+
+# The given code defined a function called my_min(), 
+# which takes two arguments and returns the smaller one.
+
+# You need to improve the function, so that it can take any number of variables, 
+# so that the function call works.
+
+def my_min(x,y,*args):
+    for i in args:
+        if i < y:
+            return i    
+        else:
+            return y
+
+print(my_min(8, 13, 4, 42, 120, 7))
+
